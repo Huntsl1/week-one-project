@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url(https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i);
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #968772;
+}
+
+a:hover {
+  color: #967343;
+}
+
+body {
+  background-color: #F2F1E8;
+}
+
+
+
+.logo {
+  background-image: url("../images/optimized/bent-creek-logo.png");
+  position: fixed;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin: 10px 0px 10px 20px;
+  z-index: 3;
+}
+
+nav {
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: center;
+  position: fixed;
+  z-index: 2;
+}
+
+
+nav a {
+  font-family: 'Roboto', helvetica, sans-serif;
+  font-size: 20px;
+  color: #2B2F26;
+  text-transform: uppercase;
+  padding-top: 22px;
+  margin:0 33px;
+}
+
+nav a:hover {
+  color: #CD5D67;
+}
+
+nav a:active {
+  color: #968772;
+}
+
+.active {
+  color: #968772;
+}
+
+
+
+header {
+  font-family: 'Merriweather', helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+header h1 {
+  color: #131511;
+  font-size: 66px;
+  font-weight: bolder;
+  margin-bottom: 70px;
+  margin-top: 0px;
+  padding-top: 120px;
+}
+.images{
+  font-family: 'Merriweather',helvetica, sans-serif;
+  background-color: #F2F1E8;
+  color: #131511;
+}
+.product{
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+#succulents{
+  background-image: url('./images/optimized/product-1.jpg');
+  background-size: cover;
+}
+#bowls{
+  background-image: url('./images/optimized/product-2.jpg');
+  background-size: cover;
+}
+#platter{
+  background-image: url('./images/optimized/product-3.jpg');
+  background-size: cover;
+}
+#bluecup{
+  background-image: url('./images/optimized/product-4.jpg');
+  background-size: cover;
+}
+#pitcher{
+  background-image: url('./images/optimized/product-5.jpg');
+  background-size: cover;
+}
+#saki{
+  background-image: url('./images/optimized/product-6.jpg');
+  background-size: cover;
+}
+#wavycup{
+  background-image: url('./images/optimized/product-7.jpg');
+  background-size: cover;
+
+}
+.descriptor{
+  color: #F2EFD7;
+  align-items: baseline;
+  justify-content: flex-start;
+  display: flex;
+}
+footer{
+  background-color: #2B2F26;
+  height: 103px;
+  padding: 20px 0 0 25px;
+}
